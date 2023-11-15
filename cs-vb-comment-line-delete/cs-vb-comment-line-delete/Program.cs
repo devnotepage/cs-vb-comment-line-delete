@@ -8,8 +8,10 @@ namespace cs_vb_comment_line_delete
 {
     internal class Program
     {
+        [STAThread]
         static void Main(string[] args)
         {
+            System.Windows.Forms.Application.Run(new FormMain());
         }
     }
 }
